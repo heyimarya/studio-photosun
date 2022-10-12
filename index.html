@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studio photosun</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        
+    </style>
+
+</head>
+<body class="container-fluid">
+    <h1 class="bg-warning text-light text-center p-2 mt-2" style=" font-weight: bold; font-family: Verdana; "><span class="bi bi-camera"></span> Studio photosun<span class="text-black" style="font-size: 15px; filter: none;">capture it all</span></h1>
+    <!-- navbar -->
+    <div class="navbar navbar-dark bg-dark navbar-expand-lg mt-2">
+        <div class="container-fluid">
+            <h2 class="navbar-brand">STuDiO pHoToSuN <span class="bi bi-camera"></span></h2>
+            <button class="navbar-toggler" data-bs-target="#menuitems" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse justify-content-lg-end" id="menuitems">
+                <ul class="navbar-nav me-auto mb-2 m-lg-0 ">
+                    <li class="nav-item"><a class="nav-link text-warning" href="./home.html" target="_blank" style="font-weight: bold ;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#" style="font-weight:bold ;">Service</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#" style="font-weight:bold ;">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="./album.html" target="_blank" style="font-weight:bold ;">Albums</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="./contact.html" target="_blank" style="font-weight:bold ;">Contact</a></li>
+                    <li class="nav-item input-group"><input type="text" class="form-control"><button class="btn btn-warning"><span class="bi bi-search"></span></button></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+      <!-- carousel -->
+    <div class="carousel slide carousel-warning" id="banner" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="https://www.wallpapertip.com/wmimgs/17-173190_dresses-bride-groom-cute-couple-wedding-photograph-wedding.jpg" height="400px" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://jamiehowell.net/wp-content/uploads/2018/12/1-Atlanta-Indian-Sikh-wedding-at-Sewa-Gurdwara-Sahib-18.jpg" height="400px" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="https://soulphotography.co.uk/wp-content/uploads/2021/02/2020-09-10_0046.jpg?528f23&528f23" height="400px" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://cdn0.weddingwire.in/articles/images/5/6/5/6/img_16565/gujarati-shaadi-dkreatephotography-jewelledup.jpg" height="400px" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="https://th.bing.com/th/id/R.8559da1443876d18ffd5d6f755c315f6?rik=OJv3lHuYKHQyRg&riu=http%3a%2f%2fchennai365.com%2fassets%2fBrahmanda-Nayagan-Movie-Stills-9.jpg&ehk=yb108YzW4F%2fux8NrvUCPkIzeoVMS0RGLcPvLccR%2fx%2fM%3d&risl=&pid=ImgRaw&r=0" height="400px" class="d-block w-100">
+            </div>
+
+        </div>
+        <div>
+            <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class="carousel-indicators">
+            <button class="active" data-bs-slide-to="0" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="2" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="3" data-bs-target="#banner"></button>
+            <button data-bs-slide-to="4" data-bs-target="#banner"></button>
+        </div>
+    </div>
+   </div>
+   <div class="container-fluid d-flex justify-content-center bg-dark p-1 mt-1">
+    
+        <input class="from-control input-group w-25 ms-5" type="date"><button class="btn btn-danger me-5">Choose Date</button>
+        <input class="from-control input-group w-25" type="time"><span><button class="btn btn-danger d-flex">Choose time</button></span>
+        <button class="btn btn-warning ms-4">Book Now</button>
+        
+
+        
+
+    
+
+   </div>
+        <!--
+        <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn btn-dark dropdown-toggle form-control"> <span class="bi bi-camera-video"> Type of Photography</span> </button>
+            <ul class="dropdown-menu dropdown-menu-light">
+                <li class="dropdown-item"><span class="dropdown-text">Traditional</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">Artistic</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">Natuarl</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">Editorial</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">Documentary</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">portrait</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">Vintage</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">Cinematic</span></li>
+                <li class="dropdown-item"><span class="dropdown-text">Black&White</span></li>
+            </ul>
+
+        </div>
+         -->
+        
+
+         
+
+    </div>
+    
+
+   </div>
+   <div class="sticky-lg-top">
+    <h2 class="bg-dark text-center text-warning mt-2 p-2">𝐎𝐮𝐫 𝐖𝐨𝐫𝐤</h2>
+   </div>
+   <div class="d-flex flex-wrap justify-content-center">
+    <div class="card p-2 m-2 bg-warning text-light " style="width: 600px ">
+        <img src="https://img.freepik.com/free-photo/mehndi-wedding-ornament-hands-drawn-by-henna_8353-9769.jpg?w=740&t=st=1665490342~exp=1665490942~hmac=cc358aae19b4a62d2da215109d8a4fff3c49d368915a5b28e7c9b710f9174e88" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+
+    </div>
+    <div class="card p-2 m-2 bg-warning text-light" style="width: 600px ">
+        <img src="https://img.freepik.com/free-photo/details-part-traditional-indian-wedding-women-clothes_8353-9765.jpg" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+
+    </div>
+    <div class="card p-2 m-2 bg-warning text-light" style="width: 600px ">
+        <img src="https://img.freepik.com/free-photo/authentic-indian-tray-with-traditional-sacred-objects-wedding-ceremony_8353-9781.jpg" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+
+    </div>
+    <div class="card p-2 m-2 bg-warning text-light" style="width: 600px ">
+        <img src="https://img.freepik.com/free-photo/indian-bride-s-parents-hold-bowl-with-coconut-her-hands_8353-740.jpg?w=740&t=st=1665492753~exp=1665493353~hmac=439ba261a07c0f354751a4f5896d829918cca2ed0efe69590fbecd79478d6b52" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+
+    </div>
+    <div class="card p-2 m-2 bg-warning text-light" style="width: 600px ">
+        <img src="https://images.pexels.com/photos/12936565/pexels-photo-12936565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+        
+
+    </div>
+    <div class="card p-2 m-2 bg-warning text-light" style="width: 600px ">
+        <img src="https://images.pexels.com/photos/12936566/pexels-photo-12936566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+        
+
+    </div>
+    <div class="card p-2 m-2 bg-warning text-light" style="width:600px">
+        <img src="https://images.pexels.com/photos/12337598/pexels-photo-12337598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+        
+
+    </div>
+    <div class="card p-2 m-2 bg-warning text-light" style="width:600px">
+        <img src="https://images.pexels.com/photos/12936553/pexels-photo-12936553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="400" class="card-img-top">
+        <div class="card-body bg-warning">
+            <dl>
+                <dt class="text-center"> &copy; Studio Photosun</dt>
+                
+            </dl>
+
+        </div>
+        
+
+    </div>
+
+
+   </div>
+   <div class="footer">
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span class="text-dark bg-warning p-2">Get connected with us on social networks :-</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div style="font-size:25px ;">
+        <a class="text-primary" href="#"><span class="bi bi-facebook"></span></a>
+        <a class="text-primary" href="#"><span class="bi bi-twitter"></span></a>
+        <a class="text-danger" href="#"><span class="bi bi-instagram"></span></a>
+        <a class="text-success" href="#"><span class="bi bi-whatsapp"></span></a>
+        <a class="text-danger" href="#"><span class="bi bi-youtube"></span></a>
+          
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class=" bg-dark p-2">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase font-weight-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Studio Photosun
+            </h6>
+            <p>
+              Capture It All !
+              Our lens capture your moments in all their flavor and fancies.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Type
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Traditional</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Natuarl</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Cinematic</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Vintage</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Pricing
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none" ><span class="bi bi-currency-rupee">28000/-</span></a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none"><span class="bi bi-currency-rupee">25000/-</span></a></a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none"><span class="bi bi-currency-rupee">53000/-</span></a></a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none"><span class="bi bi-currency-rupee">45000/-</span></a></a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>Bihar Sharif , Postoffice Road </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              sauravarya5203590@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +91 8789822686</p>
+            <p><i class="fas fa-print me-3"></i> +91 7274938168</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4 bg-warning text-dark" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold text-decoration-none">Saurav Arya</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+   </div>
+    
+  
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script  src="./node_modules/jquery/dist/jquery.min.js"></script>
+</body>
+</html>

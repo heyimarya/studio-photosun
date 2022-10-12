@@ -1,0 +1,11 @@
+.bi-camera{
+    filter: drop-shadow(3px 3px 1px black);
+}
+.bg-warning{
+    box-shadow: 4px 5px 8px black;
+}
+.closeup{
+    box-shadow: 3px 3px 3px orange;
+    text-shadow: 4px 3px 3px rgb(100, 100, 99);
+}
+
